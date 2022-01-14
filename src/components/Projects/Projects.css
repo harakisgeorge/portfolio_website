@@ -30,7 +30,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 340px;
+  width: 400px;
 }
 
 .project:hover {
@@ -50,11 +50,11 @@ main {
 
 .project .description,
 .project #stack {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: white;
-  inline-size: 250px;
+  inline-size: 300px;
   overflow-wrap: break-word;
-  text-align: center;
+  text-align: justify;
 }
 
 .stack-list {
