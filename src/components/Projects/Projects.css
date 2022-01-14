@@ -28,6 +28,8 @@ main {
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 340px;
 }
 
@@ -37,14 +39,62 @@ main {
   -moz-box-shadow: 4px 2px 18px 15px rgba(147, 142, 142, 0.75);
 }
 
+.project h4 {
+  margin-top: 20px;
+}
+
 .project img {
   width: 100%;
   height: 100%;
 }
 
-.project p {
-  font-size: 0.75rem;
+.project .description,
+.project #stack {
+  font-size: 0.95rem;
   color: white;
-  inline-size: 150px;
+  inline-size: 250px;
   overflow-wrap: break-word;
+  text-align: center;
+}
+
+.stack-list {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stack-list li {
+  padding: 0.89rem;
+}
+
+.project h4 {
+  color: white;
+}
+.code_source-buttons {
+  color: white;
+}
+
+.code_source-buttons {
+  display: flex;
+  flex-direction: row;
+}
+.code_source-buttons li {
+  padding: 0.6rem;
+  margin: 2rem;
+  background: #6b3030;
+  background-color: rgb(107, 48, 48);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: none;
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  border-radius: 15px;
+}
+
+.code_source-buttons li a {
+  color: white;
 }
