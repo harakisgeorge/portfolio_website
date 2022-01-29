@@ -1,0 +1,36 @@
+.main {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0 auto;
+  display: block;
+  max-width: 1024px;
+}
+
+div {
+  color: white;
+}
+
+.timeline {
+  margin-bottom: 60px;
+}
+.timeline p {
+  inline-size: 768px;
+  max-width: 768px;
+  overflow-wrap: break-word;
+}
+.main button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 50px;
+}
+
+.timeline-parts p {
+  inline-size: 180px;
+  overflow-wrap: break-word;
+}
+
+.styles-module_item-container__a8zaY {
+  display: flex;
+  justify-content: center;
+}

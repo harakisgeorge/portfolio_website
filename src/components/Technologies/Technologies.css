@@ -1,0 +1,28 @@
+main {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.technologies-categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    ". ."
+    ". .";
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.icon {
+  color: white;
+  font-size: 2rem;
+}
+.category-details {
+  inline-size: 180px;
+  font-size: 1.1rem;
+  overflow-wrap: break-word;
+}
