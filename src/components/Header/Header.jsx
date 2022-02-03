@@ -11,7 +11,7 @@ const Header = () => {
             <p>The purpose of JavaScript Mastery is to help aspiring and 
                established developers to take their development skills to
                the next level and build awesome apps.</p>
-            <button>Learn more</button>
+            <button>Scroll Down!</button>
             <div className='underline'></div>
 
          </main>

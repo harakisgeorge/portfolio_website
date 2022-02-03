@@ -11,7 +11,7 @@ const Timeline = () => {
                   and in practice through work.
                </p>
             </div>            
-            <Carousel show={4} slide={2} transition={0.5}>
+            <Carousel show={4}  slide={3} swiping={true}>
                <div className='timeline-parts'>
                   <h3>2014</h3>
                   <p>Started my term in the Cypriot National Guard.</p>
@@ -30,7 +30,7 @@ const Timeline = () => {
                </div>
                <div className='timeline-parts'>
                   <h3>2021</h3>
-                  <p>Started a job at Studix AS, as a frontend developer</p>
+                  <p>Started a job at Studix AS, as a frontend developer, 6 month contract</p>
                </div>
                <div className='timeline-parts'>
                   <h3>2022</h3>

@@ -7,14 +7,10 @@ const Navbar = () => {
          <ul className='navbar-links'>
             
             <li><a href=""><AiFillSketchCircle />Portfolio</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Technologies</a></li>
-            <li><a href="">About</a></li>
-
          </ul>
          <ul className='navbar-social_media'>
-            <li><a href=""><AiFillGithub/></a></li>
-            <li><a href=""><AiFillLinkedin/></a></li>
+            <li><a href="https://github.com/harakisgeorge"><AiFillGithub/></a></li>
+            <li><a href="https://www.linkedin.com/in/george-harakis-9b5538120/"><AiFillLinkedin/></a></li>
          </ul>
       </div>
    )
